@@ -15,3 +15,5 @@ url_2='http://apis.juhe.cn/lottery/query'
 param_2={'lottery_id':'ssq','key':'3d2205fa2ac13db3e3d9c6a7cb036df2'}
 response_2=requests.post(url_2,param_2).json()
 print(response_2)
+
+print(1)
