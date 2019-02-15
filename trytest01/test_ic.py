@@ -12,6 +12,5 @@ def test_ic(favourite_ic):
 
 
 if __name__ == '__main__':
-    print([i for i in range(0, 100)])
     favourite_ic = 555
     print(test_ic(favourite_ic))
