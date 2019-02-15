@@ -3,7 +3,7 @@
 
 def test_ic(favourite_ic):
     user_guess = input("Try to guess our favourite IC >>> ")
-    breakpoint()
+    #breakpoint()
 
     if user_guess == favourite_ic:
         return "Yup, that's our favourite!"
@@ -12,5 +12,6 @@ def test_ic(favourite_ic):
 
 
 if __name__ == '__main__':
+    print([i for i in range(0, 100)])
     favourite_ic = 555
     print(test_ic(favourite_ic))
