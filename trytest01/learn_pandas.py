@@ -5,7 +5,7 @@ lemon=pd.read_excel('python1116.xlsx',sheet_name='login')#
 # print(lemon['data'])
 
 #print(lemon.ix[1,3])
-#print(lemon.loc[[1,3]])#读取指定的行
+print(lemon.loc[[1,3]])#读取指定的行
 
 # print(lemon.ix[1,['title','data']].values)#列表
 # print(lemon.ix[:,['title','data']].values)#列表  获取所有的数据
